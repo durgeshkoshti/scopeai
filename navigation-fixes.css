@@ -1,0 +1,3 @@
+/* Explicit CTA contrast: nav-link specificity must never wash out the button label. */
+.navlinks a.btn { color: #fff !important; text-shadow: 0 1px 1px #1e40af; }
+.navlinks a.btn.secondary, .navlinks a.btn.ghost { color: var(--ink) !important; text-shadow: none; }
